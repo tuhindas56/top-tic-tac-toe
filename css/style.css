@@ -30,3 +30,13 @@ form {
 .none {
   display: none;
 }
+.fa-github {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  font-size: 2rem;
+  text-decoration: none;
+}
+footer > p {
+  text-align: center;
+}
