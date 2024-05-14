@@ -1,0 +1,32 @@
+body {
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+}
+form {
+  width: 400px;
+}
+.grid {
+  display: grid;
+  grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+  height: 500px;
+  width: 500px;
+}
+.grid > div {
+  display: grid;
+  place-content: center;
+  font-size: 4rem;
+  border: 1px solid;
+  height: 100%;
+  width: 100%;
+  user-select: none;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.text {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 1.4rem;
+}
+.none {
+  display: none;
+}

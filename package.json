@@ -4,7 +4,7 @@
   "description": "A simple rock-paper-scissors project built as part of <a href=\"https://www.theodinproject.com/lessons/node-path-javascript-tic-tac-toe#project-solution\">The Odin Project curriculum.</a>",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node ./js/app.js"
   },
   "keywords": [],
   "author": "",
